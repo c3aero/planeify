@@ -1,0 +1,10 @@
+{
+	"name": "C3UX",
+	"description": "ux.c3aero.com",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "4.4.5"
+	}
+}
+

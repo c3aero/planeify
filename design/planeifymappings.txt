@@ -1,0 +1,95 @@
+/* Planeify.com Route Mappings */
+/*
+
+// public mappings (viewable by all)
+
+/* index.js */
+{root} => /index
+/contact
+
+/* auth.js */
+/login
+/logout
+
+// private mappings (require login)
+
+/* users.js */
+/users
+/users/add
+/users/{id}
+/users/delete
+/users/reset-password
+/users/roles
+/users/roles/add
+/users/roles/{id}
+/users/roles/delete
+
+/* content.js */
+/content
+/content/add
+/content/{id}
+/content/edit/{id}
+/content/delete
+/content/history/{id}
+/content/auth/{id}
+/content/auth/add
+/content/auth/delete
+/content/tags
+/content/tags/add
+/content/tags/{tag}
+/content/tags/delete
+/content/categories
+/content/categories/add
+/content/categories/{tag}
+/content/categories/delete
+/content/slugs
+/content/slugs/add
+/content/slugs/{slug}
+/content/slugs/delete
+
+/* plane.js */
+/planes => /plane/all
+/plane/find
+/plane/{reg}
+/plane/edit/{reg}
+/plane/delete
+
+/* instructor.js */
+/instructors => /instructor/all
+/instructor/find
+/instructor/{id}
+/instructor/add
+/instructor/delete
+
+/* flights.js */
+/flights/schedule
+/flights/check-in
+/flights/briefing-preflight
+/flights/current
+/flights/analysis
+/flights/share
+/flights/logbook => /flights/logbook/all
+/flights/logbook/{flight-no}
+
+/* challenges.js */
+/challenges
+/challenges/{name}
+/challenges/add
+/challenges/delete
+
+/* rankings.js */
+/rankings
+/rankings/categories => /rankings/category/all
+/rankings/category/{name}
+/rankings/category/add
+/rankings/category/edit
+/rankings/category/delete
+/rankings/category/top/{n}
+/rankings/category/bottom/{n}
+/rankings/top
+
+/* admin.js */
+/config
+/logs
+
+*/
