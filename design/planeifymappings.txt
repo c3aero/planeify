@@ -50,6 +50,7 @@
 /* plane.js */
 /planes => /plane/all
 /plane/find
+/plane/{category}/{class}
 /plane/{reg}
 /plane/edit/{reg}
 /plane/delete
